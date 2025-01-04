@@ -115,17 +115,7 @@
           </p>
         </div>
         <div class="mt-14 flex-1 flex justify-end">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
-          <lottie-player
-            src="https://lottie.host/d0f40d90-d4ab-4252-97b0-2009701fa3c5/I8h5JERNOk.json"
-            background="##ffffff"
-            speed="1"
-            style="width: 500px; height: 500px"
-            loop
-            autoplay
-            direction="1"
-            mode="normal"
-          ></lottie-player>
+          <div id="lottie-container" style="width: 500px; height: 500px"></div>
         </div>
       </div>
     </section>
@@ -189,7 +179,7 @@
           <figure class="max-w-lg flex-1">
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.com/docs/images/examples/image-3@2x.jpg"
+              src="/assets/images/project3.jpeg"
               alt="image description"
             />
             <figcaption
@@ -201,10 +191,7 @@
               Formify<br /><span class="text-lg">2024</span>
             </h2>
             <p class="font-medium text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              commodi enim eaque, accusantium adipisci ut blanditiis vero aut
-              ea, fugiat impedit culpa! Et placeat odio facilis repellat esse a
-              provident?
+              Formify mirip konsepnya dengan Google Form namun Formify lebih sederhana
             </p>
 
             <p class="mt-4">
@@ -236,7 +223,7 @@
           <figure class="max-w-lg flex-1">
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.com/docs/images/examples/image-3@2x.jpg"
+              src="/assets/images/project1.jpeg"
               alt="image description"
             />
             <figcaption
@@ -248,10 +235,7 @@
               Yoexto<br /><span class="text-lg">2024</span>
             </h2>
             <p class="font-medium text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              commodi enim eaque, accusantium adipisci ut blanditiis vero aut
-              ea, fugiat impedit culpa! Et placeat odio facilis repellat esse a
-              provident?
+              Yoexto sebenarnya web untuk absensi. namun yang menjadi unik dari Yoexto adalah absensi dengan cara rekap ekspresi siswa pada hari tersebut
             </p>
 
             <p class="mt-4">
@@ -283,7 +267,7 @@
           <figure class="max-w-lg flex-1">
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.com/docs/images/examples/image-3@2x.jpg"
+              src="/assets/images/project5.jpeg"
               alt="image description"
             />
             <figcaption
@@ -295,10 +279,7 @@
               Linify<br /><span class="text-lg">2024</span>
             </h2>
             <p class="font-medium text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              commodi enim eaque, accusantium adipisci ut blanditiis vero aut
-              ea, fugiat impedit culpa! Et placeat odio facilis repellat esse a
-              provident?
+              Linify merupakan web untuk memperpendek url. sama konsepnya dengan bit.ly
             </p>
 
             <p class="mt-4">
@@ -330,7 +311,7 @@
           <figure class="max-w-lg flex-1">
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.com/docs/images/examples/image-3@2x.jpg"
+              src="/assets/images/project4.jpeg"
               alt="image description"
             />
             <figcaption
@@ -342,10 +323,7 @@
               Imanify<br /><span class="text-lg">2024</span>
             </h2>
             <p class="font-medium text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              commodi enim eaque, accusantium adipisci ut blanditiis vero aut
-              ea, fugiat impedit culpa! Et placeat odio facilis repellat esse a
-              provident?
+              Imanify adalah web inventory management yang dibuat se sederhana mungkin namun tidak mengabaikan fungsi utamanya
             </p>
 
             <p class="mt-4">
@@ -377,7 +355,7 @@
           <figure class="max-w-lg flex-1">
             <img
               class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.com/docs/images/examples/image-3@2x.jpg"
+              src="/assets/images/project2.jpeg"
               alt="image description"
             />
             <figcaption
@@ -389,10 +367,7 @@
               Attendance Records<br /><span class="text-lg">2024</span>
             </h2>
             <p class="font-medium text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              commodi enim eaque, accusantium adipisci ut blanditiis vero aut
-              ea, fugiat impedit culpa! Et placeat odio facilis repellat esse a
-              provident?
+              Attendance Records merupakan web untuk absensi bagi siswa magang. siswa dapat melihat rekap absensinya selama magang
             </p>
 
             <p class="mt-4">
@@ -666,6 +641,16 @@
       function handleClickButtonCallAdmin() {
         document.location.href = "https://wa.me/62895632506450";
       }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.1/lottie.min.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container: document.getElementById('lottie-container'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'assets/lottie/animal1.json'
+      });
     </script>
   </body>
 </html>
